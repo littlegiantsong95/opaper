@@ -12,13 +12,26 @@
 <style>
     p,a{
         font-family: 'Nanum Gothic Coding', monospace;
+        text-decoration: none;
+        color: inherit;
+    }
+    button{
+        background-color: #0080ff;
+        border-color: #0080ff;
+        color: #fff !important;
+        font-size: 1em;
+        padding: .78571em 2em;
+    }
+    button span{
+        vertical-align: middle;
     }
 </style>
 <body>
     <h1>안녕하세요. 송정은 포트폴리오 입니다.</h1>
    
-    <p> <span class="material-icons"> file_download </span>아래 링크를 클릭하여 파일을 열어주세요.</p>
-    <a href="image/sje_portfolio.pdf" target="_blank">송정은 포트폴리오 PDF file</a>
+    <p> 아래 링크를 클릭하여 파일을 열어주세요.</p>
+    <button><span class="material-icons"> file_download </span> <a href="image/sje_portfolio.pdf" target="_blank">송정은 포트폴리오 PDF file</a></button>
+    
 
 </body>
 </html>
